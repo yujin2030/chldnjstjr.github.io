@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/프로필1.jpg" alt="Thiago Rossener" width="200">
+<img class="img-rounded" src="/assets/img/uploads/프로필1.jpg" alt="chldnjstjr" width="200">
 
 ## 자기소개
 ### 최원석(崔元石, CHOI WONSEOK)
