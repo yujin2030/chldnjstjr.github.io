@@ -7,19 +7,25 @@ permalink: /about/
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
-# About
+## 자기소개
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+1남 2녀중 셋째로 태어나 친구들한테 한 대 맞으면 두 대 이상으로 되갚으라는 부모님의 말씀을 들으며 자랐다. 현재 한양대학교 일반대학원 경영학과 마케팅 전공 석사 1기생으로 재학 중인 최원석은 수원대학교 경상대학을 졸업하고 석사 학위를 취득하려고 하고 있다. 주요 저서는 'Marekting Management', '소비자행동론' 같은 것은 안타깝게도 없으며 여러가지 아이디어만이 존재한다. 서울도성초등학교 교통안전 표어짓기 대회 최우수상을 받았던 기억이 어렴풋이난다. 한국상품학회 간사로 활동하였다. 어디어디 심사위원장, 여기저기 자문위원 등도 하고 싶으며 미국 Journal of Marketing의 편집위원 같은 것도 해보고 싶다. 
 
 
-# 연구 관심 분야
-### 온라인소비행동
-### 유통관리 
-### 하이테크마케팅 
-### Behavioral Decision Theory 
-### 스포츠마케팅
+## 연구 관심 분야
+##### 온라인소비행동, 유통관리, 하이테크마케팅, BDT, 스포츠마케팅, 힙합
+
+## 학력
+##### 2001, 선재어린이집(서울시 강남구 소재)
+##### 2007, 서울도성초등학교
+##### 2010, 서울역삼초등학교
+##### 2013, 휘문고등학교
+##### 2020, 수원대학교(응용통계학, 경영학)
+##### 2020~ 한양대학교(일반대학원 경영학과 마케팅)
+
+## 경력 
+##### 2014~2016 공군 기지건설장비운전병
+##### 2006, 서울도성초등학교 6학년 3반 회장
+##### 2005, 서울도성초등학교 5학년 1반 부회장
+##### 2002, 붉은악마
+##### 2001~ 김세호 친구
