@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/프로필1.JPG" alt="chldnjstjr" width="600">
+<img class="img-squared" src="/assets/img/uploads/프로필1.JPG" alt="chldnjstjr" width="600">
 
 ## 자기소개
 ### 최원석(崔元石, CHOI WONSEOK)
