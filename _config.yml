@@ -1,6 +1,6 @@
 # Site Settings
-name: CHOI WONSEOK
-title: Blog
+name: Research Blog
+title: 최원석의 블로그입니다. 
 description: Jekflix is a template for Jekyll inspired by Netflix and made by
   Thiago Rossener.
 tags:
@@ -19,17 +19,17 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
-disqus_username: disqus_username
+email: wonseokchoi@hanyang.ac.kr
+disqus_username: chldnjstjr
 
 
 # Social Media Settings
 # Remove the item if you don't need it
 github_username: chldnjstjr
-facebook_username: facebook_username
+facebook_username: 100003058136137
 twitter_username: twitter_username
 instagram_username: fabius58
-linkedin_username: linkedin_username
+linkedin_username: 원석-최-10209315a/
 medium_username: medium_username
 
 
@@ -43,7 +43,7 @@ two_columns_layout: true
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chldnjstjr.github.io/" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "G-0CCP9YJ0WY"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
