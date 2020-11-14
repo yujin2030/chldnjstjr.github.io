@@ -1,19 +1,24 @@
 ---
-date: 2019-05-16T23:48:05.000Z
+date: 2020-10-01T04:00:05.000Z
 layout: post
-title: Welcome to the desert of the real
-subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+title: 주사위의 기대값은 진짜 3.5인가?
+subtitle: 진짜로 주사위 1000번 굴렸을 때 평균이 3.5가 나오는지 한 번 알아보자
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
 image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
+  https://cdn.pixabay.com/photo/2016/07/07/16/46/roll-the-dice-1502706_960_720.jpg
 optimized_image: >-
-  https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
-category: blog
+  https://cdn.pixabay.com/photo/2016/07/07/16/46/roll-the-dice-1502706_960_720.jpg
+category: Probability Experiment
 tags:
-  - welcome
-  - blog
+  - Probability
+  - Experiment
+  - Probability Experiment
+  - 확률
+  - 주사위 
+  - 평균 
+  - 기대값
 author: thiagorossener
 paginate: true
 ---
