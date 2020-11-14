@@ -2,7 +2,7 @@
 date: 2020-10-01T04:00:05.000Z
 layout: post
 title: 주사위의 기대값은 진짜 3.5인가?
-subtitle: 진짜로 주사위 1000번 굴렸을 때 평균이 3.5가 나오는지 한 번 알아보자
+subtitle: 주사위 1000번 굴리면 진짜 평균이 3.5가 나오는지 한 번 알아보자
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
@@ -19,39 +19,45 @@ tags:
   - 주사위 
   - 평균 
   - 기대값
-author: thiagorossener
+author: 최원석
 paginate: true
 ---
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+주사위 하나를 던졌을 때 나오는 눈의 기대값이 3.5라는 것은 통계학개론, 기초확률론 강의에서 수도 없이 들었다. 근데 정말로, 진짜로 그것이 맞는지 내 두 눈으로 확인하지 않고서야 그냥 넘어가지 못하는 바보같은 성격 때문에 주사위 1000번(정확히는 1000개의 눈)을 던져 평균을 구해보았다. 그리고 믿을 수 없게도 결과는.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> 본 글은 통계학이 어려운 통계학과 학부 졸업생이 작성한 글로 
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+우선 아래와 같이 실험을 간단히 정리했다. 
 
-## Inline HTML elements
+#### 질문
+주사위의 기대값은 정말로 3.5인가? 아니, 정말 3.5에 가깝기라도 한 것일까? 
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+#### 목적
+위 질문에 대한 답을 구하고자 주사위를 무수히 많이 던져 나온 1000개의 눈들의 합의 평균을 구한다. 
 
-* **To bold text**, use `<strong>`.
-* *To italicize text*, use `<em>`.
-* Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-* Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+#### 실험 방법
+주사위 10개를 100번 던진다. 
+1r(주사위 10개x10번)마다 나온 주사위의 눈을 엑셀에 기록한다.
 
-Most of these elements are styled by browsers with few modifications on our part.
+#### 실험 도구
+* 주사위 
+ABM 파티 칼라 정육면체 주사위 10EA
+주사위 크기: 1.4cm X 1.4cm X 1.4cm
+주사위 무게: 19g
+제조사: 도매콜
+원산지: 중국 
 
-# Heading 1
+* 기초확률론 제 3판, 신양우 지음 (경문사)
+주사위를 던질 때 받침대로 활용하였다.
+(교재 비하 의도는 전혀 없으며 단지 본 교재로 공부하던 중 호기심에 바로 책을 뒤집어 본의 아니게 책을 받침대로 사용하게 되었습니다. 죄송합니다.)
 
-## Heading 2
+#### 실험 일자 및 장소
+* 2020년 10월 1일 2:30 ~ 3:30 
+* 한양대학교 서울캠퍼스 제 2학생생활관 1층 식당
 
-### Heading 3
+#### 실험 특이사항 
+주사위를 굴리는 데 너무 시끄러웠던 나머지 옆 자리의 유학생이 굉장히 눈치를 많이 주었다. 
 
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
---page-break--
+--실험 결과--
 
 ## Code
 
