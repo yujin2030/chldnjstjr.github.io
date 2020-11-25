@@ -1,6 +1,6 @@
 # Site Settings
 name: Marketing Research Blog
-title: 마케팅 공부하는 대학원생의 평범한 블로그입니다. 
+title: 보통 블로그 
 description: Jekflix is a template for Jekyll inspired by Netflix and made by
   Thiago Rossener.
 tags:
@@ -30,7 +30,6 @@ facebook_username: 100003058136137
 twitter_username: twitter_username
 instagram_username: fabius58
 linkedin_username: 원석-최-10209315a/
-medium_username: medium_username
 
 
 # Posts Settings
