@@ -1,129 +1,37 @@
 ---
-date: 2018-10-09 12:26:40
+date: 2020-12-29 12:26:40
 layout: post
-title: The quick brown fox jumps over a lazy dog
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: 버스는 왜 곧바로 오는 법이 없는가?
+subtitle: 4211번 버스의 발차 시간을 활용한 대기 시간의 기대값 구하기
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1506079212/jekflix-capa_vfhuzh.png
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1506079212/jekflix-capa_vfhuzh.png
-category: css
+category: experiment
 tags:
-  - css
-  - tips
-author: thiagorossener
+  - 머피의 법칙
+  - 서울 4211번 버스
+  - 왕십리역
+  - 한양대
+  - 한양대 기숙사
+  - 빨리 와주길 바라
+author: 최원석
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+> 본 내용은 일반통계학(김우철 외, 2008)의 제 3장 확률과 확률분포의 예제 3.11을 참고하여 만들었습니다. 
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+대중교통은 말그대로 대중교통이기 때문에 내가 원하는 시점에 발차할 수가 없다. 내가 원하는 출발 시점과 실제 출발 시점의 차이를 최대한 줄이려면 최고로 개인화된 대중교통인 택시를 이용하는 것이 좋다. 또 그 차이를 거의 0으로 수렴하게 하는 방법은 역시나 승용차를 구매하는 것이다. 
+버스와 지하철 그리고 비행기 등등 내가 아닌 타인에 의해 운영되는 교통들은 나의 출발 시점을 전혀 고려해주지 않기 때문에 내가 그들의 시간에 항상 맞춰야 한다는 불편함이 따른다. 
+최근에는 일명 '빅데이터'를 활용하여 탑승자들의 승하차 기록을 세밀하게 분석하는 연구가 활발하게 이루어지고 있고 실제로 운수회사, 서울메트로 등에서도 버스와 지하철 배차 간격을 조정하고 있다. 따라서 그 수 많은 기록 중 대중교통을 열심히 이용한 내 기록도 일부 포함되었겠으니 그들이 나를 아주 조금은 고려해준다고 할 수는 있겠다. 그러나 그것은 배려가 아니고 대중교통 배차에 있어 내 승하차 기록의 영향력은 매우 미미하다. 
+내가 거주 중인 한양대학교 기숙사의 교통은 서울의 전반적인 교통의 편리함을 고려했을 때 조금 불편한 쪽에 속하는 것 같다. 기숙사와 가장 가까운 역인 용답역은 도보로 10분이 채 걸리지 않으나 용답역에는 애초에 배차가 많이 할당되지 않기 때문에 빠르게 도착하더라도 길게 기다려야 한다. 그 다음 가까운 한양대역과 왕십리역은 각각 도보로 15분, 25분이 걸린다. 최근 학교 내에 많이 보급된 전동킥보드를 타고 이동하자니 버스 운행료보다 비싸고 역까지 가는 과정에서 많은 언덕 때문에 킥보드가 제 힘을 발휘하지 못한다. 기숙사 바로 앞에 있는 
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thiago Rossener</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-# Heading 1
-
-## Heading 2
+# 왜 내가 기다리는 버스는 늦게 오는가? 
+## Murphy's law
+내가 일상 생활 속 머피의 법칙을 가장 많이 느끼는 순간은 버스와 지하철을 기다릴 때가 아닌가 싶다. 머피의 법칙은 위키백과에 의하면 "하려는 일이 항상 원하지 않는 방향으로만 진행되는 현상을 이르는 말"이라고 한다. 
 
 ### Heading 3
 
 #### Heading 4
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 
 
