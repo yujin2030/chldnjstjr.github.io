@@ -4,8 +4,8 @@ layout: post
 title: 기술은 없고 철학만 있다.
 subtitle: 대치동에서 내가 돈 받고 과외할 수 있는 과목은?
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: ![Untitled](https://user-images.githubusercontent.com/74039472/123526324-12d0f780-d712-11eb-887a-43a02989503f.png)
-optimized_image: ![Untitled](https://user-images.githubusercontent.com/74039472/123526332-195f6f00-d712-11eb-929c-9dac57a528d0.png)
+image: ![Untitled](https://user-images.githubusercontent.com/74039472/123526872-a6f08e00-d715-11eb-8440-138ccf8a9b51.png)
+optimized_image: ![Untitled](https://user-images.githubusercontent.com/74039472/123526872-a6f08e00-d715-11eb-8440-138ccf8a9b51.png)
 category: research diary
 tags:
   - 기술
