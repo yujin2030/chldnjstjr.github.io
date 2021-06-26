@@ -4,8 +4,8 @@ layout: post
 title: 주사위의 기대값은 진짜 3.5인가?
 subtitle: 주사위 1000번 굴리면 진짜 평균이 3.5가 나오는지 한 번 알아보자
 description:
-image: ![dice-1502706_1920](https://user-images.githubusercontent.com/74039472/123526855-81638480-d715-11eb-9268-56c6c932cd1a.jpg)
-optimized_image: ![dice-1502706_1920](https://user-images.githubusercontent.com/74039472/123526855-81638480-d715-11eb-9268-56c6c932cd1a.jpg)
+image: <img src="https://pixabay.com/images/id-1502706/">
+optimized_image: <img src="https://pixabay.com/images/id-1502706/">
 category: Experiment
 tags:
   - Probability
